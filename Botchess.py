@@ -4,7 +4,7 @@ from discord.ext import commands
 intents = discord.Intents.all()
 intents.members = True
 bot = commands.Bot(command_prefix='!', intents=intents)
-
+#in progress
 games = {}  # a dictionary to store all the current games
 @bot.event
 async def on_ready():
